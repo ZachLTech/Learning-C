@@ -18,7 +18,7 @@
     - a command that adds 1 to i if the conditional is passed 
     - (each parameter separated by semicolens in the for parameter parenthesis)
 
-# In the For Loop:
+#### In the For Loop:
 
 - a line with fscanf command that scans a temperature from file pointed variable temps_F and assigns it to your fahrenheit array in position i (when the loop is running, i is replaced with a proper position between 0 and 9 (including 0 and 9) since there are 10 temps)
 - a line with the fahrenheit to celcius conversion being set equal to the celcius temperatures array in position i
