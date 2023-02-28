@@ -17,4 +17,6 @@ tempFavg = tempFsum/10; //divides the fahrenheit temps sum (tempFsum) by 10 to f
 tempCavg = tempCsum/10;//divides the celcius temps sum (tempCsum) by 10 to find the average and assigns it to the variable tempCavg
 printf("The average temperature in Fahrenheit is: %.2lf\n", tempFavg); //prints/outputs the average fahrenheit temperature in the terminal (from double tempFavg)
 printf("The average temperature in Celcius is: %.2lf\n\n", tempCavg); //prints/outputs the average celcius temperature in the terminal (from double tempCavg)
+fclose(temps_F);
+fclose(temps_C);
 } //closes main function
