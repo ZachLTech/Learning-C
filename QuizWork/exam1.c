@@ -16,6 +16,8 @@ double usrdfunction(double paramnum){
     return num1;
 }
 */
+
+/*
 double LuckyGame(double d, int n);
 
 int main(){
@@ -42,3 +44,5 @@ double LuckyGame(double d, int n){
     }
     return d;
 }
+*/
+
